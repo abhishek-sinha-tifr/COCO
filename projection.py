@@ -76,7 +76,7 @@ def projection_simplex_bisection(v, z=1, tau=0.0001, max_iter=1000):
 
     return np.maximum(v - midpoint, 0)
 
-def euclidean_projection(v, R=10):
+def euclidean_projection(v, R=100):
     if np.linalg.norm(v)>R:
         return (v*R/np.linalg.norm(v))
     else:
