@@ -1,6 +1,6 @@
 This is an implementation of the COCO algorithm proposed in the following NeurIPS 2024 paper:
 
-[1] Sinha, Abhishek and Vaze, Rahul, "Optimal Algorithms for Online Convex Optimization with Adversarial Constraints", Advances in Neural Information Processing Systems, 2024. (preprint available at: https://arxiv.org/pdf/2310.18955).
+[1] Sinha, Abhishek and Vaze, Rahul, "Optimal Algorithms for Online Convex Optimization with Adversarial Constraints", Advances in Neural Information Processing Systems, 2024. (preprint available at: https://www.tifr.res.in/~abhishek.sinha/files/COCO_Sinha-Vaze24.pdf).
 
 It trains a neural network with a single hidden layer using the algorithm proposed in the above paper to detect credit card frauds in an online fashion with a highly imbalanced dataset.
 
